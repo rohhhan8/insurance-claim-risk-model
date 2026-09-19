@@ -1,0 +1,7 @@
+{
+  "pr_auc": 0.13900943847159483,
+  "baseline_pr_auc": 0.05023500029497945,
+  "test_claim_rate": 0.05023500029497945,
+  "mean_raw_predicted_prob": 0.4260287582874298,
+  "mean_calibrated_predicted_prob": 0.05030510202050209
+}
