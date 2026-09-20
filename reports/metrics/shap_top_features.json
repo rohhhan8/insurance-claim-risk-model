@@ -1,0 +1,16 @@
+{
+  "frequency_top_features": {
+    "Exposure": 0.43081000447273254,
+    "BonusMalus": 0.23295068740844727,
+    "VehAge": 0.13608397543430328,
+    "vehage_drivage_ratio": 0.09387523680925369,
+    "DrivAge": 0.08892948925495148
+  },
+  "severity_top_features": {
+    "BonusMalus": 0.09939472377300262,
+    "Exposure": 0.09054797142744064,
+    "DrivAge": 0.04753813520073891,
+    "vehage_drivage_ratio": 0.036639608442783356,
+    "VehBrand_B12": 0.02261102944612503
+  }
+}
