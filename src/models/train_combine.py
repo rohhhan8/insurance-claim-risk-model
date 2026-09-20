@@ -36,6 +36,9 @@ def main() -> None:
     # correction is needed at all.
     payout_given_claim_rate = compute_payout_given_claim_rate(train)
     print(f"P(real payout | ClaimNb>0), train-estimated: {payout_given_claim_rate:.4f}")
+    (MODELS_DIR / "payout_given_claim_rate.json").write_text(
+        json.dumps({"payout_given_claim_rate": payout_given_claim_rate})
+    )
 
     encoders = joblib.load(MODELS_DIR / "feature_encoders.joblib")
     X_test, _ = build_feature_matrix(test, fit_encoders=False, encoders=encoders)
